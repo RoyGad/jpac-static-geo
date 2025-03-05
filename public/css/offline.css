@@ -1,0 +1,216 @@
+body {
+  background-color:#fff;
+  color:#303030;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:13px;
+  overflow-y:scroll;
+}
+
+a {
+  color:#667fa7;
+}
+
+a:visited {
+  color:#465f87;
+}
+
+a span.alias {
+  color:#888;
+  text-decoration:none;
+}
+
+h1 {
+  font-size:16px;
+}
+
+h1 a {
+  text-decoration:none;
+  color:#f31920;
+}
+
+input {
+  padding:5px;
+  font-size:14px;
+}
+
+table.offline {
+  margin:auto;
+}
+
+.tabs td {
+  background-color:#f31920;
+  padding:10px 10px;
+  border:2px solid #ccc;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+}
+
+.tabs ul {
+  display:block;
+  padding:0px; 
+  margin:0px;
+  list-style-type:none;
+  overflow:visible;
+}
+
+.tabs ul li {
+  float:left;
+  list-style-type:none;
+  padding:0px;
+  margin:0px;
+}
+
+.tabs ul li a {
+  color:#eee;
+  padding:5px 15px;
+  display:block;
+  text-decoration:none;
+  font-size:13px;
+}
+
+.tabs ul li a:hover {
+  text-decoration:underline;
+}
+
+.tabs ul li a.active {
+  color:#fff;
+  text-decoration:underline;
+}
+
+td {
+  vertical-align:top;
+}
+
+.sidebar {
+  padding-top:15px;
+}
+
+.sidebar .well {
+  background-color:#eee;
+  padding:10px;
+}
+
+.sidebar ul {
+  list-style-type:none;
+  padding:4px;
+  margin:0;
+}
+
+.sidebar ul ul {
+  margin-left:15px;
+}
+
+.sidebar ul li {
+  padding:4px;
+}
+
+.sidebar ul li a {
+  text-decoration:none;
+}
+
+.sidebar ul li ul li {
+}
+
+.sidebar ul li.active>a {
+  color:#000;
+  font-weight:bold;
+}
+
+td p {
+  margin:0px 0px 10px 0px;
+}
+              
+td.data-header {
+  padding:30px 0px 10px 0px; 
+  font-size:14px;
+  font-weight:bold;
+}
+
+td.data-label {
+  font-style:italic;
+  padding-right:20px;
+  padding-top:10px;
+  width:125px;
+  text-align:right;
+}
+
+td.data-value {
+  padding-top:10px;
+}
+
+.dsg-yellow td.data-value, .dsg-yellow td.data-label {
+  background-color:#ffffcc;
+}
+
+.dsg-orange td.data-value, .dsg-orange td.data-label {
+  background-color:#FFEBD6;
+}
+
+.dsg-pink td.data-value, .dsg-pink td.data-label {
+  background-color:#FFE0F5;
+}
+
+.dsg-green td.data-value, .dsg-green td.data-label {
+  background-color:#CCFFCC;
+}
+
+.dsg-purple td.data-value, .dsg-purple td.data-label {
+  background-color:#E0C2FF;
+}
+
+.dsg-blue td.data-value, .dsg-blue td.data-label {
+  background-color:#CCE0FF;
+}
+
+.dsg-red td.data-value, .dsg-red td.data-label {
+  background-color:#FFCCCC;
+}
+
+.content {
+  line-height:19px;
+  padding-top:15px;
+}
+
+sup {
+  line-height:10px;
+  vertical-align: top;
+}
+
+.dsgindex td {
+  border-top:1px solid #ccc;
+  padding:8px;
+  margin:0px;
+}
+
+.drugindex td {
+  border-top:1px solid #ccc;
+  padding:8px;
+  margin:0px;
+}
+
+p.caption {
+  margin:0px 0px 15px 0px;
+  font-style:italic;
+  font-size:11px;
+  color:#999;
+}
+
+.update-information {
+  border-top: 1px dotted #dedede;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+  .update-information dt {
+    margin-right: 10px;
+  }
+  
+    .update-information dt h4 {
+      margin-top: 0;
+    }
+    
+  .update-information dt,
+  .update-information dd {
+    float: left;
+        }
